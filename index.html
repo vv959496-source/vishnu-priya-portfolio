@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vishnu Priya M | Data Analyst</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #07152f;
+            color: white;
+        }
+
+        /* Navbar */
+
+        header {
+            width: 100%;
+            padding: 20px 8%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #07152f;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: 700;
+            color: #ff4fa3;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #9b5cff;
+        }
+
+        /* Home */
+
+        #home {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 20px 50px;
+        }
+
+        .home-content h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        .home-content h1 span {
+            color: #ff4fa3;
+        }
+
+        .home-content h2 {
+            font-size: 28px;
+            color: #9b5cff;
+            margin-bottom: 15px;
+        }
+
+        .home-content p {
+            max-width: 650px;
+            margin: auto;
+            color: #dce5ff;
+            line-height: 1.7;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 5px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg, #9b5cff, #ff4fa3);
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+        }
+
+        @media (max-width: 700px) {
+
+            nav ul {
+                gap: 10px;
+            }
+
+            nav ul li a {
+                font-size: 11px;
+            }
+
+            .home-content h1 {
+                font-size: 38px;
+            }
+
+            .home-content h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<header>
+    <nav>
+        <div class="logo">Vishnu Priya</div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!-- Home Section -->
+
+<section id="home">
+
+    <div class="home-content">
+
+        <h1>Hello, I'm <span>Vishnu Priya</span></h1>
+
+        <h2>Data Analyst | Data Science Enthusiast</h2>
+
+        <p>
+            A passionate B.Com Computer Applications graduate
+            interested in Data Analytics, Data Science,
+            Business Intelligence and Machine Learning.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#projects" class="btn">
+                <i class="fa-solid fa-folder-open"></i>
+                View Projects
+            </a>
+
+            <a href="resume.pdf" download class="btn">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Download Resume
+            </a>
+
+            <a href="#contact" class="btn">
+                <i class="fa-solid fa-envelope"></i>
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- About Section -->
+
+<section id="about">
+
+    <div class="section-title">
+        <h2>About Me</h2>
+        <span></span>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h3>I'm Vishnu Priya M</h3>
+
+            <p>
+                I am a B.Com Computer Applications graduate with
+                a strong interest in Data Analytics and Data Science.
+            </p>
+
+            <p>
+                I enjoy working with data, finding useful insights,
+                creating dashboards and solving business problems
+                using data.
+            </p>
+
+            <p>
+                I have learned Python, SQL, Excel, Power BI,
+                Tableau and Machine Learning concepts.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Skills Section -->
+
+<section id="skills">
+
+    <div class="section-title">
+        <h2>My Skills</h2>
+        <span></span>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <i class="fa-brands fa-python"></i>
+            <h3>Python</h3>
+            <p>
+                Pandas, NumPy, Matplotlib,
+                Seaborn and Scikit-learn
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>SQL / MySQL</h3>
+            <p>
+                Data querying, filtering,
+                joins and data analysis
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <i class="fa-solid fa-file-excel"></i>
+            <h3>Microsoft Excel</h3>
+            <p>
+                VLOOKUP, Pivot Tables,
+                data cleaning and analysis
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <i class="fa-solid fa-chart-column"></i>
+            <h3>Power BI</h3>
+            <p>
+                Interactive dashboards,
+                KPIs and data visualization
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h3>Tableau</h3>
+            <p>
+                Data visualization and
+                interactive dashboards
+            </p>
+        </div>
+
+
+        <div class="skill-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Machine Learning</h3>
+            <p>
+                Linear Regression, Logistic Regression,
+                K-Means and Random Forest
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- Projects Section -->
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <!-- E-Commerce Sales Dashboard -->
+    <div class="project-card">
+        <h3>E-Commerce Sales Dashboard</h3>
+        <p>
+            Interactive Power BI dashboard for analyzing e-commerce sales,
+            customers, products, and business performance.
+        </p>
+        <a href="https://github.com/vv959496-source/E-Commerce-Sales-Dashboard"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- Travel Insurance Prediction -->
+    <div class="project-card">
+        <h3>Travel Insurance Prediction</h3>
+        <p>
+            Machine learning project for predicting travel insurance
+            purchases based on customer data.
+        </p>
+        <a href="https://github.com/vv959496-source/Travel-Insurance-Prediction-Analysis"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- Uber Ride Analysis -->
+    <div class="project-card">
+        <h3>Uber Ride Analysis</h3>
+        <p>
+            Data analysis project exploring Uber rides, distances,
+            categories, locations, and ride purposes.
+        </p>
+        <a href="https://github.com/vv959496-source/Uber-Ride-Analysis"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- HR Analytics Dashboard -->
+    <div class="project-card">
+        <h3>HR Analytics Dashboard</h3>
+        <p>
+            Power BI dashboard analyzing employee attrition,
+            workforce trends, and HR performance.
+        </p>
+        <a href="https://github.com/vv959496-source/HR-Analytics-Dashboard-Power-BI"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- Google Pay Expense Sharing -->
+    <div class="project-card">
+        <h3>Google Pay Expense Sharing</h3>
+        <p>
+            Python project designed to simplify expense sharing
+            and calculate individual balances.
+        </p>
+        <a href="https://github.com/vv959496-source/Google-Pay-Expense-Sharing"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+    <!-- Credit Card Fraud Detection -->
+    <div class="project-card">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>
+            Machine learning project for detecting potentially
+            fraudulent credit card transactions.
+        </p>
+        <a href="https://github.com/vv959496-source/Credit-Card-Fraud-Detection"
+           target="_blank">
+            View Project
+        </a>
+    </div>
+
+</section>
+
+
+<!-- Certificates Section -->
+
+<section id="certificates">
+
+    <div class="section-title">
+        <h2>Certificates</h2>
+        <span></span>
+    </div>
+
+    <div class="certificate-container">
+
+        <!-- Certificate 1 -->
+
+        <div class="certificate-card">
+
+            <div class="certificate-icon">
+                <i class="fa-solid fa-certificate"></i>
+            </div>
+
+            <h3>Data Science Course</h3>
+
+            <p>
+                GUVI HCL
+            </p>
+
+            <p class="certificate-description">
+                Completed training in Data Science,
+                Data Analytics, Python, SQL,
+                Machine Learning and related concepts.
+            </p>
+
+        </div>
+
+
+        <!-- Certificate 2 -->
+
+        <div class="certificate-card">
+
+            <div class="certificate-icon">
+                <i class="fa-solid fa-award"></i>
+            </div>
+
+            <h3>Introduction to Data Analysis using Microsoft Excel</h3>
+
+            <p>
+                Coursera
+            </p>
+
+            <p class="certificate-description">
+                Learned Excel-based data analysis,
+                data cleaning, formulas and
+                visualization techniques.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Education Section -->
+
+<section id="education">
+
+    <div class="section-title">
+        <h2>Education</h2>
+        <span></span>
+    </div>
+
+    <div class="education-container">
+
+        <div class="education-card">
+
+            <i class="fa-solid fa-graduation-cap"></i>
+
+            <div>
+                <h3>Bachelor of Commerce with Computer Application</h3>
+
+                <p>
+                    Madurai Kamaraj University
+                </p>
+
+                <span>2023 - 2026</span>
+            </div>
+
+        </div>
+
+
+        <div class="education-card">
+
+            <i class="fa-solid fa-school"></i>
+
+            <div>
+                <h3>Higher Secondary Certificate (HSC)</h3>
+
+                <p>
+                    Tamil Nadu State Board
+                </p>
+                
+                <span>2021 - 2023</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact Section -->
+
+<section id="contact">
+
+    <div class="section-title">
+        <h2>Contact Me</h2>
+        <span></span>
+    </div>
+
+    <p class="contact-text">
+        I am currently looking for opportunities as a
+        Data Analyst. Feel free to connect with me.
+    </p>
+
+    <div class="contact-container">
+
+        <!-- LinkedIn -->
+
+        <a href="https://www.linkedin.com/in/vishnu-priya-m-2740792bb"
+           target="_blank"
+           class="contact-card">
+
+            <i class="fa-brands fa-linkedin"></i>
+
+            <h3>LinkedIn</h3>
+
+            <p>Connect with me</p>
+
+        </a>
+
+
+        <!-- GitHub -->
+
+        <a href="https://github.com/vv959496-source"
+           target="_blank"
+           class="contact-card">
+
+            <i class="fa-brands fa-github"></i>
+
+            <h3>GitHub</h3>
+
+            <p>View my projects</p>
+
+        </a>
+
+
+        <!-- Email -->
+
+        <a href="mailto:vv959496@gmail.com"
+           class="contact-card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3>Email</h3>
+
+            <p>Send me an email</p>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+    <p>
+        © 2026 Vishnu Priya M. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- Additional CSS -->
+
+<style>
+
+    /* General Sections */
+
+    section {
+        padding: 100px 8%;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+        color: white;
+    }
+
+    .section-title span {
+        display: block;
+        width: 60px;
+        height: 4px;
+        margin: 10px auto;
+        background: linear-gradient(
+            90deg,
+            #9b5cff,
+            #ff4fa3
+        );
+        border-radius: 10px;
+    }
+
+
+    /* About */
+
+    #about {
+        background: #0b1b3a;
+    }
+
+    .about-content {
+        max-width: 850px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .about-text h3 {
+        font-size: 25px;
+        color: #ff4fa3;
+        margin-bottom: 20px;
+    }
+
+    .about-text p {
+        color: #dce5ff;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+
+
+    /* Skills */
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .skill-card {
+        background: #102348;
+        padding: 30px 20px;
+        text-align: center;
+        border-radius: 15px;
+        border: 1px solid #1d3565;
+        transition: 0.3s;
+    }
+
+    .skill-card:hover {
+        transform: translateY(-8px);
+        border-color: #9b5cff;
+    }
+
+    .skill-card i {
+        font-size: 40px;
+        color: #ff4fa3;
+        margin-bottom: 15px;
+    }
+
+    .skill-card h3 {
+        margin-bottom: 10px;
+    }
+
+    .skill-card p {
+        color: #aebbd6;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* Projects */
+
+    #projects {
+        background: #0b1b3a;
+    }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .project-card {
+        background: #102348;
+        padding: 30px;
+        border-radius: 15px;
+        border: 1px solid #1d3565;
+        transition: 0.3s;
+    }
+
+    .project-card:hover {
+        transform: translateY(-8px);
+        border-color: #ff4fa3;
+    }
+
+    .project-icon {
+        font-size: 35px;
+        color: #9b5cff;
+        margin-bottom: 15px;
+    }
+
+    .project-card h3 {
+        margin-bottom: 12px;
+    }
+
+    .project-card p {
+        color: #aebbd6;
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+
+    .project-btn {
+        display: inline-block;
+        padding: 9px 18px;
+        border-radius: 20px;
+        background: linear-gradient(
+            45deg,
+            #9b5cff,
+            #ff4fa3
+        );
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+
+    /* Certificates */
+
+    .certificate-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .certificate-card {
+        background: #102348;
+        padding: 35px;
+        border-radius: 15px;
+        text-align: center;
+        border: 1px solid #1d3565;
+    }
+
+    .certificate-icon {
+        font-size: 45px;
+        color: #ff4fa3;
+        margin-bottom: 15px;
+    }
+
+    .certificate-card h3 {
+        margin-bottom: 10px;
+    }
+
+    .certificate-card p {
+        color: #aebbd6;
+    }
+
+    .certificate-description {
+        margin-top: 15px;
+        line-height: 1.6;
+        font-size: 14px;
+    }
+
+
+    /* Education */
+
+    #education {
+        background: #0b1b3a;
+    }
+
+    .education-container {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .education-card {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        background: #102348;
+        padding: 25px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        border-left: 4px solid #9b5cff;
+    }
+
+    .education-card i {
+        font-size: 35px;
+        color: #ff4fa3;
+    }
+
+    .education-card h3 {
+        margin-bottom: 8px;
+    }
+
+    .education-card p {
+        color: #dce5ff;
+        margin-bottom: 5px;
+    }
+
+    .education-card span {
+        color: #9b5cff;
+        font-size: 14px;
+    }
+
+
+    /* Contact */
+
+    .contact-text {
+        text-align: center;
+        color: #aebbd6;
+        margin-bottom: 40px;
+    }
+
+    .contact-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .contact-card {
+        text-align: center;
+        background: #102348;
+        padding: 30px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid #1d3565;
+        transition: 0.3s;
+    }
+
+    .contact-card:hover {
+        transform: translateY(-8px);
+        border-color: #ff4fa3;
+    }
+
+    .contact-card i {
+        font-size: 40px;
+        color: #9b5cff;
+        margin-bottom: 15px;
+    }
+
+    .contact-card h3 {
+        margin-bottom: 8px;
+    }
+
+    .contact-card p {
+        color: #aebbd6;
+        font-size: 14px;
+    }
+
+
+    /* Footer */
+
+    footer {
+        text-align: center;
+        padding: 25px;
+        background: #050f23;
+        color: #aebbd6;
+        font-size: 14px;
+    }
+
+
+    /* Responsive Design */
+
+    @media (max-width: 900px) {
+
+        .skills-container,
+        .projects-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .contact-container {
+            grid-template-columns: 1fr;
+        }
+    }
+
+
+    @media (max-width: 700px) {
+
+        section {
+            padding: 80px 5%;
+        }
+
+        .skills-container,
+        .projects-container,
+        .certificate-container {
+            grid-template-columns: 1fr;
+        }
+
+        .education-card {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .section-title h2 {
+            font-size: 28px;
+        }
+
+    }
+
+</style>
+
+
+</body>
+</html>
